@@ -3,16 +3,51 @@
 	<url>
 		<loc>https://www.www.validebagmun.org</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-01-21</lastmod>
+		<lastmod>2023-01-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/faq</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-01-22</lastmod>
 	</url>
 	<url>
 		<loc>https://www.www.validebagmun.org/secretariat</loc>
-		<priority>0.50</priority>
+		<priority>0.67</priority>
+		<lastmod>2023-01-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/registration</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-01-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/board</loc>
+		<priority>0.67</priority>
+		<lastmod>2023-01-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/contact</loc>
+		<priority>0.67</priority>
 		<lastmod>2023-01-21</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.validebagmun.org/directorate</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-01-20</lastmod>
+		<loc>https://www.www.validebagmun.org/committees/unesco</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-01-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/committees/specpol</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-01-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/committees/disec</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-01-21</lastmod>
+	</url>
+	<url>
+		<loc>https://www.www.validebagmun.org/committees/unsc</loc>
+		<priority>0.33</priority>
+		<lastmod>2023-01-21</lastmod>
 	</url>
 </urlset>
