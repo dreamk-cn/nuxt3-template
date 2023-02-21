@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /static
-Sitemap: https://www.validebagmun.org/sitemap.xml
