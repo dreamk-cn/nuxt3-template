@@ -126,7 +126,7 @@
 
 <script>
 export default {
-  name: "Terms&Conditions"
+  name: "TermsConditions"
 }
 </script>
 

@@ -1,15 +1,12 @@
-<script setup>
-
-</script>
-
 <template>
-
+    <p>
+        UNSC HELLO
+    </p>
 </template>
-
 
 <script>
 export default {
-    name: "Header"
+    name: "UNSC"
 }
 </script>
 

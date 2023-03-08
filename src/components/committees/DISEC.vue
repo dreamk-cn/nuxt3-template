@@ -4,10 +4,6 @@
 
 <script>
 export default {
-  name: "Footer"
+    name: "DISEC"
 }
 </script>
-
-<style scoped>
-
-</style>
