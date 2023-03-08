@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "flowbite": "^1.6.3",
-    "flowbite-vue": "^0.0.10",
+    "@vueuse/core": "^9.13.0",
+    "daisyui": "^2.51.3",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
