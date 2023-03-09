@@ -1,23 +1,33 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Home from '/src/components/Home.vue';
+import Team from "../components/Team.vue";
 import FAQ from "/src/components/FAQ.vue";
 import Contact from "/src/components/Contact.vue";
+
 import ApplicationBase from "/src/components/applications/Base.vue";
 import Individual from "/src/components/applications/Individual.vue";
 import Delegation from "/src/components/applications/Delegation.vue";
 import Admin from "/src/components/applications/Admin.vue";
 import Press from "/src/components/applications/Press.vue";
+
 import TermsConditions from "/src/components/legal/TermsConditions.vue";
 import PrivacyPolicy from "/src/components/legal/PrivacyPolicy.vue";
+
 import Base from "/src/components/committees/Base.vue";
 import SPECPOL from "/src/components/committees/SPECPOL.vue";
 import JCC from "/src/components/committees/JCC.vue";
+
 
 const routes = [
     {
         path: "/",
         name: "Home",
         component: Home,
+    },
+    {
+        path: "/team",
+        name: "Our Team",
+        component: Team,
     },
     {
         path: "/faq",
