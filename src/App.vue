@@ -151,10 +151,10 @@ const toggleDark = useToggle(isDark)
 const faviconEl = document.querySelector('link[rel="icon"]')
 
 if (isDark) {
-    faviconEl.setAttribute('href', '/public/vmun-dark.svg')
+    faviconEl.setAttribute('href', '/vmun-dark.svg')
 }
 else {
-    faviconEl.setAttribute('href', '/public/vmun-light.svg')
+    faviconEl.setAttribute('href', '/vmun-light.svg')
 }
 </script>
 
