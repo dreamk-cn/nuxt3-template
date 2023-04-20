@@ -139,7 +139,7 @@
     </footer>
 </template>
 
-<script>
+<script setup>
 import {ref} from 'vue'
 import {useDark, useToggle} from '@vueuse/core'
 
