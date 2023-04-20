@@ -152,11 +152,11 @@ const faviconEl = document.querySelector('link[rel="icon"]')
 
 if (isDark) {
     faviconEl.setAttribute('href', '/vmun-white.svg')
-    iconURL = '/vmun-light.svg'
+    iconURL.value = '/vmun-light.svg'
 }
 else {
     faviconEl.setAttribute('href', '/vmun-black.svg')
-    iconURL = '/vmun-dark.svg'
+    iconURL.value = '/vmun-dark.svg'
 }
 </script>
 
