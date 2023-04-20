@@ -142,6 +142,7 @@
 <script setup>
 import {ref} from 'vue'
 import {useDark, useToggle} from '@vueuse/core'
+import { hasChanged } from '@vue/shared';
 
 const iconURL = ref('/vmun-dark.svg')
 
@@ -150,14 +151,16 @@ const toggleDark = useToggle(isDark)
 
 const faviconEl = document.querySelector('link[rel="icon"]')
 
-if (isDark) {
-    faviconEl.setAttribute('href', '/vmun-white.svg')
-    iconURL.value = '/vmun-light.svg'
-}
-else {
-    faviconEl.setAttribute('href', '/vmun-black.svg')
-    iconURL.value = '/vmun-dark.svg'
-}
+hasChanged(isDark, () => {
+    if (isDark) {
+        faviconEl.setAttribute('href', '/vmun-white.svg')
+        iconURL.value = '/vmun-light.svg'
+    }
+    else {
+        faviconEl.setAttribute('href', '/vmun-black.svg')
+        iconURL.value = '/vmun-dark.svg'
+    }
+})
 </script>
 
 <style scoped>
