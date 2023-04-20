@@ -82,8 +82,7 @@
     </div>
     <footer class="footer p-10 bg-base-200 text-base-content dark:bg-neutral dark:text-accent">
         <div>
-            <svg width="50" height="50" viewBox="0 0 24 24" :href="iconURL" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                 clip-rule="evenodd" class="fill-current mb-1"></svg>
+            <img :src="iconURL" alt="VMUN icon">
             <p>Validebağ Science High School<br/>Model United Nations Club</p>
             <span class="text-neutral font-semibold">Developed by <a target="_blank"
                                                                      href="https://github.com/HexaBinary">HexaBinary</a></span>
