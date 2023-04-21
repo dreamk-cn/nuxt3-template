@@ -2,7 +2,9 @@
     <div>
         <footer class="footer p-10 bg-base-200 text-base-content dark:bg-neutral dark:text-accent">
             <div>
-                <img src="icon" alt="VMUN icon" class="h-24">
+                <ClientOnly>
+                    <img :src="icon" alt="VMUN icon" class="h-24">
+                </ClientOnly>
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
                 <span class="text-neutral font-semibold">Developed by <a target="_blank"
                         href="https://github.com/HexaBinary">HexaBinary</a></span>
@@ -66,7 +68,13 @@
 </template>
 
 <script setup lang="ts">
-
+const props = defineProps({
+    isDark: {
+        type: Boolean,
+        default: false
+    }
+})
+const icon = computed(() => props.isDark ? '/vmun-light.svg' : '/vmun-dark.svg')
 </script>
 
 <style scoped></style>
