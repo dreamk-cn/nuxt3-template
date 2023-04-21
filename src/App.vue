@@ -74,11 +74,7 @@
         </div>
     </div>
     <div>
-        <router-view v-slot="{ Component }">
-            <transition name="fade">
-                <component :is="Component"/>
-            </transition>
-        </router-view>
+        <router-view />
     </div>
     <footer class="footer p-10 bg-base-200 text-base-content dark:bg-neutral dark:text-accent">
         <div>
