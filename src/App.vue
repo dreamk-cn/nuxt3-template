@@ -140,28 +140,17 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useDark, useToggle } from '@vueuse/core'
+import { computed } from 'vue';
+import { useDark, useToggle, useFavicon } from '@vueuse/core'
 
-const icon = ref('/vmun-dark.svg')
-const faviconEl = document.querySelector('link[rel="icon"]')
-const html = document.querySelector('html')
-
-const isDark = useDark({
-    onChanged(dark) {
-        if (dark) {
-            html.classList.value = 'dark'
-            icon.value = '/vmun-light.svg'
-            faviconEl.href = '/vmun-white.svg'
-        } 
-        else {
-            html.classList.value = ''
-            icon.value = '/vmun-dark.svg'
-            faviconEl.href = '/vmun-black.svg'
-        }
-    }
-})
+const isDark = useDark()
 const toggleDark = useToggle(isDark)
+
+const icon = computed(() => isDark.value ? '/vmun-light.svg' : '/vmun-dark.svg')
+
+const favicon = computed(() => isDark.value ? '/vmun-white.svg' : '/vmun-black.svg')
+useFavicon(favicon)
+
 </script>
 
 <style scoped>
