@@ -82,7 +82,7 @@
     </div>
     <footer class="footer p-10 bg-base-200 text-base-content dark:bg-neutral dark:text-accent">
         <div>
-            <img :src="iconURL" alt="VMUN icon">
+            <img :src="icon" alt="VMUN icon" class="h-24">
             <p>Validebağ Science High School<br/>Model United Nations Club</p>
             <span class="text-neutral font-semibold">Developed by <a target="_blank"
                                                                      href="https://github.com/HexaBinary">HexaBinary</a></span>
@@ -140,27 +140,28 @@
 </template>
 
 <script setup>
-import {ref} from 'vue'
-import {useDark, useToggle} from '@vueuse/core'
-import { hasChanged } from '@vue/shared';
+import { ref } from 'vue';
+import { useDark, useToggle } from '@vueuse/core'
 
-const iconURL = ref('/vmun-dark.svg')
-
-const isDark = useDark()
-const toggleDark = useToggle(isDark)
-
+const icon = ref('/vmun-dark.svg')
 const faviconEl = document.querySelector('link[rel="icon"]')
+const html = document.querySelector('html')
 
-hasChanged(isDark, () => {
-    if (isDark) {
-        faviconEl.setAttribute('href', '/vmun-white.svg')
-        iconURL.value = '/vmun-light.svg'
-    }
-    else {
-        faviconEl.setAttribute('href', '/vmun-black.svg')
-        iconURL.value = '/vmun-dark.svg'
+const isDark = useDark({
+    onChanged(dark) {
+        if (dark) {
+            html.classList.value = 'dark'
+            icon.value = '/vmun-light.svg'
+            faviconEl.href = '/vmun-white.svg'
+        } 
+        else {
+            html.classList.value = ''
+            icon.value = '/vmun-dark.svg'
+            faviconEl.href = '/vmun-black.svg'
+        }
     }
 })
+const toggleDark = useToggle(isDark)
 </script>
 
 <style scoped>
