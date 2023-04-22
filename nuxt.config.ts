@@ -5,9 +5,6 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@nuxtjs/color-mode'
     ],
-    colorMode: {
-        classSuffix: ''
-    },
     runtimeConfig: {
         public: {
             siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.validebagmun.org',
@@ -18,7 +15,15 @@ export default defineNuxtConfig({
             trailingSlash: true
         }
     },
+    app: {
+        head: {
+            titleTemplate: '%pageTitle %titleSeparator %siteName'
+        }
+    },
     schemaOrg: {
         host: 'https://www.validebagmun.org',
+    },
+    colorMode: {
+        classSuffix: ''
     },
 })
