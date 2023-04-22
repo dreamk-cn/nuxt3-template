@@ -12,20 +12,20 @@
             <div>
                 <span class="footer-title">Secretariat</span>
                 <NuxtLink to="/"><a class="link link-hover">Home</a></NuxtLink>
-                <NuxtLink to="/team"><a class="link link-hover">Our Team</a></NuxtLink>
-                <NuxtLink to="/faq"><a class="link link-hover">FAQ</a></NuxtLink>
-                <NuxtLink to="/contact"><a class="link link-hover">Contact Us</a></NuxtLink>
-                <NuxtLink to="/apply"><a class="link link-hover">Applications</a></NuxtLink>
+                <NuxtLink to="/team/"><a class="link link-hover">Our Team</a></NuxtLink>
+                <NuxtLink to="/faq/"><a class="link link-hover">FAQ</a></NuxtLink>
+                <NuxtLink to="/contact/"><a class="link link-hover">Contact Us</a></NuxtLink>
+                <NuxtLink to="/apply/"><a class="link link-hover">Applications</a></NuxtLink>
             </div>
             <div>
-                <NuxtLink to="/committees"><span class="footer-title">Committees</span></NuxtLink>
-                <NuxtLink to="/committees/SPECPOL"><a class="link link-hover">SPECPOL</a></NuxtLink>
-                <NuxtLink to="/committees/JCC"><a class="link link-hover">JCC</a></NuxtLink>
+                <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
+                <NuxtLink to="/committees/SPECPOL/"><a class="link link-hover">SPECPOL</a></NuxtLink>
+                <NuxtLink to="/committees/JCC/"><a class="link link-hover">JCC</a></NuxtLink>
             </div>
             <div>
                 <span class="footer-title">Legal</span>
-                <NuxtLink to="/termsandconditions"><a class="link link-hover">Terms of use</a></NuxtLink>
-                <NuxtLink to="/privacypolicy"><a class="link link-hover">Privacy policy</a></NuxtLink>
+                <NuxtLink to="/termsandconditions/"><a class="link link-hover">Terms of use</a></NuxtLink>
+                <NuxtLink to="/privacypolicy/"><a class="link link-hover">Privacy policy</a></NuxtLink>
             </div>
             <div>
                 <span class="footer-title">Social</span>
@@ -44,7 +44,7 @@
                             </g>
                         </svg>
                     </a>
-                    <a target="_blank" href="https://twitter.com/VMUNapp">
+                    <a target="_blank" href="https://twitter.com/VMUN_">
                         <svg type="color-fill-current" width="24px" height="24px" viewBox="0 0 20 20" x="0px" y="0px"
                             class="fill-current">
                             <g>

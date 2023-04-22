@@ -23,10 +23,10 @@
                         </a>
                         <ul class="p-2 bg-base-100 dark:bg-secondary dark:text-primary">
                             <li>
-                                <NuxtLink to="/committees/SPECPOL">SPECPOL</NuxtLink>
+                                <NuxtLink to="/committees/SPECPOL/">SPECPOL</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/JCC">JCC</NuxtLink>
+                                <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
                             </li>
                         </ul>
                     </li>
@@ -40,10 +40,10 @@
                     <NuxtLink to="/">Home</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/team">Our Team</NuxtLink>
+                    <NuxtLink to="/team/">Our Team</NuxtLink>
                 </li>
                 <li tabindex="0">
-                    <NuxtLink to="">
+                    <NuxtLink to="/">
                         Committees
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 24 24">
@@ -52,23 +52,23 @@
                     </NuxtLink>
                     <ul class="p-2 bg-base-100 dark:bg-secondary z-10">
                         <li>
-                            <NuxtLink to="/committees/SPECPOL">SPECPOL</NuxtLink>
+                            <NuxtLink to="/committees/SPECPOL/">SPECPOL</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/JCC">JCC</NuxtLink>
+                            <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <NuxtLink to="/faq">FAQ</NuxtLink>
+                    <NuxtLink to="/faq/">FAQ</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/contact">Contact Us</NuxtLink>
+                    <NuxtLink to="/contact/">Contact Us</NuxtLink>
                 </li>
             </ul>
         </div>
         <div class="navbar-end mr-1">
-            <NuxtLink to="/apply"><span
+            <NuxtLink to="/applications/"><span
                     class="btn btn-ghost bg-base-200 dark:bg-primary dark:text-secondary shadow">Apply Now</span>
             </NuxtLink>
         </div>
