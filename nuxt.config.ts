@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     colorMode: {
         classSuffix: ''
     },
-    nitro: {
-        preset: 'vercel-edge'
+    routeRules: {
+        '/**': { isr: true }
     }
 })
