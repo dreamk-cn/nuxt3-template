@@ -6,7 +6,7 @@
                     <img :src="icon" alt="VMUN icon" class="h-24">
                 </ClientOnly>
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
-                <span class="text-neutral font-semibold">Developed by <a target="_blank"
+                <span class="text-neutral dark:text-primary font-semibold">Developed by <a target="_blank"
                         href="https://github.com/HexaBinary">HexaBinary</a></span>
             </div>
             <div>
