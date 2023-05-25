@@ -6,7 +6,7 @@
     <OgImageScreenshot />
     <Navbar />
     <div>
-        <NuxtPage />
+        <slot />
     </div>
     <Footer :is-dark="isDark"/>
 </template>
