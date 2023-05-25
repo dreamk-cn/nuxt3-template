@@ -2,8 +2,6 @@
 
 </template>
 
-<script>
-export default {
-    name: "DISEC"
-}
+<script setup lang="ts">
+
 </script>

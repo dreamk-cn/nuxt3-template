@@ -4,12 +4,6 @@
     </p>
 </template>
 
-<script>
-export default {
-    name: "UNSC"
-}
+<script setup lang="ts">
+
 </script>
-
-<style scoped>
-
-</style>
