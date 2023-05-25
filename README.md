@@ -1,3 +1,3 @@
 # ValidebagMUN Site
 
-This is the source code for the ValidebagMUN website. It is built using the [Vue.js](https://vuejs.org/) framework and deployed using [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform) at [validebagmun.org](https://www.validebagmun.org/).
+This is the source code for the ValidebagMUN website. It is built using the [Nuxt3](https://nuxt.com/) framework and deployed using [Vercel](https://vercel.com/) at [validebagmun.org](https://www.validebagmun.org/).

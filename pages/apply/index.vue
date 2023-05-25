@@ -1,11 +1,11 @@
 <template>
+    <div>
 
+    </div>
 </template>
 
-<script>
-export default {
-    name: "SPECPOL"
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>

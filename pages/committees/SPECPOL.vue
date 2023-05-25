@@ -2,10 +2,8 @@
 
 </template>
 
-<script>
-export default {
-    name: "ApplicationBase"
-}
+<script setup lang="ts">
+
 </script>
 
 <style scoped>
