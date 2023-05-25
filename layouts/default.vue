@@ -2,6 +2,7 @@
     <Head>
         <Link rel="icon" type="image/svg+xml" :href="favicon"></Link>
     </Head>
+    <AntiAI />
     <SeoKit />
     <OgImageScreenshot />
     <Navbar />
