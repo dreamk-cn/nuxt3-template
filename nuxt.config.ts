@@ -27,6 +27,6 @@ export default defineNuxtConfig({
         classSuffix: ''
     },
     nitro: {
-        preset: 'isr'
+        preset: 'vercel-edge'
     }
 })
