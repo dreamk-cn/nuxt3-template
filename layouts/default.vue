@@ -1,15 +1,18 @@
 <template>
+  <div>
     <Head>
-        <Link rel="icon" type="image/svg+xml" :href="favicon"></Link>
+      <Link rel="icon" type="image/svg+xml" :href="favicon">
+      </Link>
     </Head>
     <AntiAI />
     <SeoKit />
     <OgImageScreenshot />
     <Navbar />
     <div>
-        <slot />
+      <slot />
     </div>
-    <Footer :is-dark="isDark"/>
+    <Footer :is-dark="isDark" />
+  </div>
 </template>
 
 <script setup lang="ts">
