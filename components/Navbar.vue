@@ -26,6 +26,18 @@
                                 <NuxtLink to="/committees/SPECPOL/">SPECPOL</NuxtLink>
                             </li>
                             <li>
+                                <NuxtLink to="/committees/ECOSOC/">ECOSOC</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/ICJ/">ICJ</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/UNSC/">UNSC</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/UNGA/">UNGA</NuxtLink>
+                            </li>
+                            <li>
                                 <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
                             </li>
                         </ul>
@@ -43,16 +55,28 @@
                     <NuxtLink to="/team/">Our Team</NuxtLink>
                 </li>
                 <li tabindex="0">
-                    <NuxtLink to="/">
+                    <NuxtLink to="/committees/">
                         Committees
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 24 24">
                             <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                         </svg>
                     </NuxtLink>
-                    <ul class="p-2 bg-base-100 dark:bg-secondary z-10">
+                    <ul class="bg-base-100 dark:bg-secondary z-10 p-2">
                         <li>
                             <NuxtLink to="/committees/SPECPOL/">SPECPOL</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/ECOSOC/">ECOSOC</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/ICJ/">ICJ</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/UNSC/">UNSC</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/UNGA/">UNGA</NuxtLink>
                         </li>
                         <li>
                             <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
@@ -68,7 +92,7 @@
             </ul>
         </div>
         <div class="navbar-end mr-1">
-            <NuxtLink to="/applications/"><span
+            <NuxtLink to="/apply/"><span
                     class="btn btn-ghost bg-base-200 dark:bg-primary dark:text-secondary shadow">Apply Now</span>
             </NuxtLink>
         </div>
@@ -79,4 +103,5 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
