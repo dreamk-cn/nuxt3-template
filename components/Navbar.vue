@@ -45,7 +45,7 @@
                 <img class="w-14 ml-1 z-5 hidden lg:flex" :src="icon" />
             </ClientOnly>
             <NuxtLink to="/"
-                class="btn normal-case bg-inherit hover:bg-inherit text-accent border-0 dark:text-primary pl-0.5 text-2xl">
+                class="btn normal-case bg-inherit hover:bg-inherit text-[#2F3128] border-0 dark:text-primary pl-0.5 text-2xl">
                 ValidebağMUN
             </NuxtLink>
         </div>
