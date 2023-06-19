@@ -12,11 +12,13 @@
             <div>
                 <NuxtLink><span class="footer-title">Conference</span></NuxtLink>
                 <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
+                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
                 <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
                 <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
+                <NuxtLink to="/conference/venue/" class="link link-hover">Venue</NuxtLink>
+                <NuxtLink to="/conference/schedule/" class="link link-hover">Schedule</NuxtLink>
                 <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
                 <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
-                <NuxtLink to="/apply/" class="link link-hover">Applications</NuxtLink>
             </div>
             <div>
                 <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
@@ -30,7 +32,7 @@
             </div>
             <div>
                 <NuxtLink><span class="footer-title">Legal</span></NuxtLink>
-                <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms of use</NuxtLink>
+                <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
                 <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
             </div>
             <div>
