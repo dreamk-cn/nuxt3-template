@@ -14,6 +14,23 @@
                         <NuxtLink to="/">Home</NuxtLink>
                     </li>
                     <li tabindex="0">
+                        <NuxtLink to="" class="justify-between">
+                            Our Team
+                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                            </svg>
+                        </NuxtLink>
+                        <ul class="p-2 bg-base-100 dark:bg-secondary dark:text-primary">
+                            <li>
+                                <NuxtLink to="/team/secretariat/">Secretariat</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/team/directorate/">Directorate</NuxtLink>
+                            </li>
+                        </ul>
+                    </li>
+                    <li tabindex="0">
                         <NuxtLink to="/committees/" class="justify-between">
                             Committees
                             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -23,21 +40,33 @@
                         </NuxtLink>
                         <ul class="p-2 bg-base-100 dark:bg-secondary dark:text-primary">
                             <li>
-                                <NuxtLink to="/committees/ECOSOC/">ECOSOC</NuxtLink>
+                                <NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/ICJ/">ICJ</NuxtLink>
+                                <NuxtLink to="/committees/who/">WHO</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/UNSC/">UNSC</NuxtLink>
+                                <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/UNGA/">UNGA</NuxtLink>
+                                <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
+                                <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/jcc/">JCC</NuxtLink>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <NuxtLink to="/faq">FAQ</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/contact">Contact Us</NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -55,7 +84,7 @@
                     <NuxtLink to="/">Home</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="#">
+                    <NuxtLink to="">
                         Our Team
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             viewBox="0 0 24 24">
@@ -64,10 +93,10 @@
                     </NuxtLink>
                     <ul class="bg-base-100 dark:bg-secondary z-10 p-2 w-[134px]">
                         <li>
-                            <NuxtLink to="/team/secretariat">Secretariat</NuxtLink>
+                            <NuxtLink to="/team/secretariat/">Secretariat</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/team/directorate">Directorate</NuxtLink>
+                            <NuxtLink to="/team/directorate/">Directorate</NuxtLink>
                         </li>
                     </ul>
                 </li>
@@ -81,19 +110,25 @@
                     </NuxtLink>
                     <ul class="bg-base-100 dark:bg-secondary z-10 p-2 w-[152px]">
                         <li>
-                            <NuxtLink to="/committees/ECOSOC/">ECOSOC</NuxtLink>
+                            <NuxtLink to="/committees/ecosoc/">ECOSOC</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/ICJ/">ICJ</NuxtLink>
+                            <NuxtLink to="/committees/who/">WHO</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/UNSC/">UNSC</NuxtLink>
+                            <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/UNGA/">UNGA</NuxtLink>
+                            <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/JCC/">JCC</NuxtLink>
+                            <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/jcc/">JCC</NuxtLink>
                         </li>
                     </ul>
                 </li>
