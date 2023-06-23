@@ -10,22 +10,30 @@
                         href="https://github.com/HexaBinary">HexaBinary</a></span>
             </div>
             <div>
-                <span class="footer-title">Secretariat</span>
-                <NuxtLink to="/"><a class="link link-hover">Home</a></NuxtLink>
-                <NuxtLink to="/team/"><a class="link link-hover">Our Team</a></NuxtLink>
-                <NuxtLink to="/faq/"><a class="link link-hover">FAQ</a></NuxtLink>
-                <NuxtLink to="/contact/"><a class="link link-hover">Contact Us</a></NuxtLink>
-                <NuxtLink to="/apply/"><a class="link link-hover">Applications</a></NuxtLink>
+                <NuxtLink><span class="footer-title">Conference</span></NuxtLink>
+                <NuxtLink to="/" class="link link-hover">Home</NuxtLink>
+                <NuxtLink to="/apply/" class="link link-hover">Apply</NuxtLink>
+                <NuxtLink to="/team/secretariat/" class="link link-hover">Secretariat</NuxtLink>
+                <NuxtLink to="/team/directorate/" class="link link-hover">Directorate</NuxtLink>
+                <NuxtLink to="/conference/venue/" class="link link-hover">Venue</NuxtLink>
+                <NuxtLink to="/conference/schedule/" class="link link-hover">Schedule</NuxtLink>
+                <NuxtLink to="/faq/" class="link link-hover">FAQ</NuxtLink>
+                <NuxtLink to="/contact/" class="link link-hover">Contact Us</NuxtLink>
             </div>
             <div>
                 <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
-                <NuxtLink to="/committees/SPECPOL/"><a class="link link-hover">SPECPOL</a></NuxtLink>
-                <NuxtLink to="/committees/JCC/"><a class="link link-hover">JCC</a></NuxtLink>
+                <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
+                <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
+                <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
+                <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <NuxtLink to="/committees/icj/" class="link link-hover">ICJ</NuxtLink>
+                <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
+                <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
             </div>
             <div>
-                <span class="footer-title">Legal</span>
-                <NuxtLink to="/termsandconditions/"><a class="link link-hover">Terms of use</a></NuxtLink>
-                <NuxtLink to="/privacypolicy/"><a class="link link-hover">Privacy policy</a></NuxtLink>
+                <NuxtLink><span class="footer-title">Legal</span></NuxtLink>
+                <NuxtLink to="/legal/termsandconditions/" class="link link-hover">Terms and Conditions</NuxtLink>
+                <NuxtLink to="/legal/privacypolicy/" class="link link-hover">Privacy policy</NuxtLink>
             </div>
             <div>
                 <span class="footer-title">Social</span>

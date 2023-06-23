@@ -1,13 +1,12 @@
 <template>
   <div>
     <Head>
-      <Link rel="icon" type="image/svg+xml" :href="favicon">
-      </Link>
+      <Link rel="icon" type="image/svg+xml" :href="favicon"></Link>
     </Head>
     <AntiAI />
     <SeoKit />
     <OgImageScreenshot />
-    <Navbar />
+    <Navbar :is-dark="isDark" />
     <div>
       <slot />
     </div>
