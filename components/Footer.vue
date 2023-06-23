@@ -24,9 +24,9 @@
                 <NuxtLink to="/committees/"><span class="footer-title">Committees</span></NuxtLink>
                 <NuxtLink to="/committees/ecosoc/" class="link link-hover">ECOSOC</NuxtLink>
                 <NuxtLink to="/committees/who/" class="link link-hover">WHO</NuxtLink>
-                <NuxtLink to="/committees/icj/" class="link link-hover">ICJ</NuxtLink>
                 <NuxtLink to="/committees/unga/" class="link link-hover">UNGA</NuxtLink>
                 <NuxtLink to="/committees/unsc/" class="link link-hover">UNSC</NuxtLink>
+                <NuxtLink to="/committees/icj/" class="link link-hover">ICJ</NuxtLink>
                 <NuxtLink to="/committees/hcc/" class="link link-hover">HCC</NuxtLink>
                 <NuxtLink to="/committees/jcc/" class="link link-hover">JCC</NuxtLink>
             </div>

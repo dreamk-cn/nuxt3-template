@@ -46,13 +46,13 @@
                                 <NuxtLink to="/committees/who/">WHO</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
-                            </li>
-                            <li>
                                 <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
                             </li>
                             <li>
                                 <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
+                            </li>
+                            <li>
+                                <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
                             </li>
                             <li>
                                 <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
@@ -116,13 +116,13 @@
                             <NuxtLink to="/committees/who/">WHO</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
-                        </li>
-                        <li>
                             <NuxtLink to="/committees/unga/">UNGA</NuxtLink>
                         </li>
                         <li>
                             <NuxtLink to="/committees/unsc/">UNSC</NuxtLink>
+                        </li>
+                        <li>
+                            <NuxtLink to="/committees/icj/">ICJ</NuxtLink>
                         </li>
                         <li>
                             <NuxtLink to="/committees/hcc/">HCC</NuxtLink>
