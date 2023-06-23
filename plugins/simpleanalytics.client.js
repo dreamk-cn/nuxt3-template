@@ -1,7 +1,9 @@
 import SimpleAnalytics from "simple-analytics-vue"
 
+const config = useRuntimeConfig();
+
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(SimpleAnalytics, {
-    skip: useAppConfig().VERCEL_ENV !== "production"
+    skip: config.public.VERCEL_ENV !== "production"
   });
 });
