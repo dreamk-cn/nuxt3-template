@@ -7,7 +7,9 @@
                 </ClientOnly>
                 <p>Validebağ Science High School<br />Model United Nations Club</p>
                 <span class="text-neutral dark:text-primary font-semibold">Developed by <a target="_blank"
-                        href="https://github.com/HexaBinary">HexaBinary</a></span>
+                        href="https://github.com/HexaBinary">HexaBinary</a>
+                </span>
+                <SimpleAnalyticsBadge />
             </div>
             <div>
                 <NuxtLink><span class="footer-title">Conference</span></NuxtLink>
