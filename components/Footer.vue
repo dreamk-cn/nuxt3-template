@@ -40,7 +40,7 @@
             <div>
                 <span class="footer-title">Social</span>
                 <div class="grid grid-flow-col gap-4">
-                    <a target="_blank" href="https://www.instagram.com/validebagmun/">
+                    <a aria-label="Our Club's Instagram account" target="_blank" href="https://www.instagram.com/validebagmun/">
                         <svg type="color-fill-current" width="24px" height="24px" viewBox="0 0 20 20" x="0px" y="0px"
                             class="fill-current">
                             <g>
@@ -54,7 +54,7 @@
                             </g>
                         </svg>
                     </a>
-                    <a target="_blank" href="https://twitter.com/VMUN_">
+                    <a aria-label="Our MUN framework, VMUN's Twitter account" target="_blank" href="https://twitter.com/VMUN_">
                         <svg type="color-fill-current" width="24px" height="24px" viewBox="0 0 20 20" x="0px" y="0px"
                             class="fill-current">
                             <g>
@@ -64,7 +64,7 @@
                             </g>
                         </svg>
                     </a>
-                    <a target="_blank" href="https://github.com/ValidebagMUN">
+                    <a aria-label="Our Club's Github Organization" target="_blank" href="https://github.com/ValidebagMUN">
                         <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24">
                             <path
